@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Term SS15:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Cascadia Code:pixelsize=15:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "NotoColorEmoji:pixelsize=14",
@@ -32,7 +32,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.15;
+static float chscale = 1.30;
 
 /*
  * word delimiter string
