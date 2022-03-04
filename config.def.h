@@ -5,10 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Gohu GohuFont:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Input:pixelsize=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "NotoColorEmoji:pixelsize=14",
+    "Noto Color Emoji:pixelsize=14",
+    "Iosevka Nerd Font Mono:pixelsize=18"
 };
 
 static int borderpx = 10;
@@ -32,7 +33,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.20;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
