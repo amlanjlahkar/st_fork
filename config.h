@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Input:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Terminus:pixelsize=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color Emoji:pixelsize=14",
-    "Iosevka Nerd Font Mono:pixelsize=18",
+    "Iosevka Nerd Font Mono:pixelsize=16",
 };
 
 static int borderpx = 15;
