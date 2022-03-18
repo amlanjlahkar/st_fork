@@ -9,10 +9,10 @@ static char *font = "Input:pixelsize=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color Emoji:pixelsize=14",
-    "Iosevka Nerd Font Mono:pixelsize=18"
+    "Iosevka Nerd Font Mono:pixelsize=18",
 };
 
-static int borderpx = 10;
+static int borderpx = 15;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -92,7 +92,7 @@ const int boxdraw_braille = 0;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "xterm-256color";
 
 /*
  * spaces per tab
